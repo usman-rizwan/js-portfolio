@@ -7,7 +7,7 @@ let showLoader = () => {
         loader.classList.toggle("hidden");
         content.classList.toggle("hidden");
 
-    }, 20);
+    }, 2000);
     content.classList.toggle("hidden");
 }
 showLoader()
