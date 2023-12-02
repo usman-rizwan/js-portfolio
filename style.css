@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: "agutina";
+    src: url(fonts/Agutina\ 400.otf);
+}
+body{
+    font-family: 'Poppins', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.my-name {
+    font-family:"agutina",cursive,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
