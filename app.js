@@ -7,7 +7,17 @@ let showLoader = () => {
         loader.classList.toggle("hidden");
         content.classList.toggle("hidden");
 
-    }, 20);
+    }, 2000);
     content.classList.toggle("hidden");
 }
 showLoader()
+let goTopButton = document.getElementById('goTopButton');
+
+window.addEventListener('scroll', function () {
+
+    if (window.scrollY > 90) { 
+        goTopButton.style.display = 'block';
+    } else {
+        goTopButton.style.display = 'none';
+    }
+});

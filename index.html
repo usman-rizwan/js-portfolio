@@ -148,13 +148,13 @@
             <a href="https://www" target="_blank"><i class="fa-brands fa-whatsapp text-2xl m-2 text-green-400"></i></a>
         </div>
 
-        <!-- <div class="inline-flex items-center justify-center w-full">
-            <hr class="w-64 h-px my-8 bg-gray-200 border-0 dark:bg-gray-700">
-            <span
-                class=" absolute px-3 font-medium text-gray-900 -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900 ">
-                ddd </span>
-        </div> -->
+   
+        <div class=" flex justify-between w-100">
 
+            <div class="w-full border-t border-dotted border-[#0e7aed] my-4"></div>
+            <div class="w-full border-t border-dotted border-[#fff] my-4"></div>
+            <div class="w-full border-t border-dotted border-[#0e7aed] my-4"></div>
+        </div>
         <div>
             <div class="p-4 flex flex-col">
                 <span class=" text-dark mt-2 text-3xl text-center">What I <span
@@ -203,7 +203,7 @@
         </div>
         <hr class=" mx-auto my-8 bg-gray-200  md:my-12 dark:bg-gray-700">
 
-        <div>
+        <div id="skills">
             <h1 class="text-3xl text-center "><span class="text-blue-500 font-semibold">Skills</span> Proficiency
             </h1>
             <div class="p-5 flex flex-col md:flex-row justify-center items-center">
@@ -242,7 +242,7 @@
                     </div>
                     <img src="images/developer2.gif" class="w-100 h-80 sm:w-50 sm:h-50">
                 </div>
-                <div data-dial-init class="fixed end-6 bottom-6 ">
+                <div data-dial-init id="goTopButton" class="fixed end-6 bottom-6" style="display: none;">
                     <a href="#">
                         <button
                             class="flex items-center justify-center text-white bg-blue-700 rounded-full w-14 h-14 hover:bg-blue-800 dark:bg-blue-600 dark:hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 focus:outline-none dark:focus:ring-blue-800">
@@ -254,7 +254,7 @@
             </div>
         </div>
         <div class="w-full border-t border-dotted border-[#0e7aed] my-4"></div>
-        <div class="p-4 m-4">
+        <div class="p-4 m-4" id="pro">
             <div class="flex justify-center items-center m-4">
 
                 <span class=" text-dark mt-2 text-3xl text-center"><span class="text-blue-500 font-bold">
@@ -305,7 +305,7 @@
                             providing a seamless and responsive user experience across various devices. Users can access
                             real-time weather updates with just a few clicks, making it a convenient tool for staying
                             informed about current weather conditions.</p>
-                        <a href="#"
+                        <a href="https://js-weather-app-api.netlify.app" target="_blank"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             For Live Preview
                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
@@ -331,7 +331,7 @@
                             log in, and compose blog posts, all with the convenience of locally stored data.This design
                             choice enhances the website's performance and responsiveness. It's a user-friendly platform
                             for sharing thoughts and experiences with a seamless and personalized experience.</p>
-                        <a href=""
+                        <a href="https://blog-app-js.netlify.app" target="_blank"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             For Live Preview
                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
@@ -343,31 +343,31 @@
                     </div>
                 </div>
                 <div
-                class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-                <a>
-                    <img class="rounded-t-lg" src="images/icon.png" alt="" />
-                </a>
-                <div class="p-5">
+                    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a>
-                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Random Pass
-                            Generator </h5>
+                        <img class="rounded-t-lg" src="images/icon.png" alt="" />
                     </a>
-                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">I've created a versatile password
-                        toolset. The first component is a random password generator that produces both strong and
-                        amusing passwords. The second part is a password checker, which evaluates the strength of a
-                        given password, providing feedback on whether it's strong or weak. Together, these tools
-                        offer a comprehensive solution for creating and assessing password security.</p>
-                    <a href="https://js-namaz-pwa.netlify.app" target="_blank"
-                        class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        For Live Preview
-                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-                        </svg>
-                    </a>
+                    <div class="p-5">
+                        <a>
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Random Pass
+                                Generator </h5>
+                        </a>
+                        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">I've created a versatile password
+                            toolset. The first component is a random password generator that produces both strong and
+                            amusing passwords. The second part is a password checker, which evaluates the strength of a
+                            given password, providing feedback on whether it's strong or weak. Together, these tools
+                            offer a comprehensive solution for creating and assessing password security.</p>
+                        <a href="https://js-pass-generator-us.netlify.app" target="_blank"
+                            class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            For Live Preview
+                            <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-            </div>
                 <div
                     class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a>
@@ -382,7 +382,7 @@
                             JavaScript calculator that performs basic arithmetic operations, including addition,
                             subtraction, multiplication, and division. This calculator provides a quick and efficient
                             way to perform simple calculations, making it a handy tool for everyday use.</p>
-                        <a href="#"
+                        <a href="https://js-mycalculator.netlify.app" target="_blank"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             For Live Preview
                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
@@ -393,7 +393,7 @@
                         </a>
                     </div>
                 </div>
-              
+
                 <div
                     class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a>
@@ -401,15 +401,14 @@
                     </a>
                     <div class="p-5">
                         <a>
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Weather Web
-                                Application</h5>
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">JS StopWatch And Timer</h5>
                         </a>
                         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">"I've created a versatile web
                             application using JavaScript that combines a precise stopwatch and a timer. The stopwatch is
                             perfect for measuring elapsed time with accuracy, while the timer offers flexibility for
                             various timekeeping needs. This all-in-one tool ensures a seamless and user-friendly
                             experience, catering to both timing and countdown requirements."</p>
-                        <a href="#"
+                        <a href="https://js-timer-stopwatch.netlify.app" target="_blank"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             For Live Preview
                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
@@ -435,7 +434,7 @@
                             log in, and compose blog posts, all with the convenience of locally stored data.This design
                             choice enhances the website's performance and responsiveness. It's a user-friendly platform
                             for sharing thoughts and experiences with a seamless and personalized experience.</p>
-                        <a href="#"
+                        <a href="https://js-cars-filter.netlify.app" target="_blank"
                             class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                             For Live Preview
                             <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true"
@@ -450,6 +449,44 @@
             </div>
 
         </div>
+        <hr class=" mx-auto my-8 bg-gray-200  md:my-12 dark:bg-gray-700">
+
+       
+
+
+        <footer class="bg-[#0e7aed] shadow dark:bg-gray-900 ">
+            <div class="w-full max-w-screen-xl mx-auto  md:py-8">
+                <div class="sm:flex sm:items-center sm:justify-between">
+                    <a class="flex items-center space-x-3 rtl:space-x-reverse ">
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">
+                            < </span>
+                                <span
+                                    class="self-center text-lg font-semibold md:text-xl whitespace-nowrap text-white my-name tracking-[0.3rem]">Muhammad
+                                    Usman</span>
+                                <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">/></span>
+                    </a>
+                    <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-white sm:mb-0 dark:text-gray-400">
+                        <li>
+                            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="hover:underline me-4 md:me-6">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#pro" class="hover:underline me-4 md:me-6">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+                <span class="block text-sm text-white sm:text-center dark:text-gray-400">© 2023 <a  class="hover:underline cursor-pointer">Muhammad Usman</a>. All Rights Reserved.</span>
+            </div>
+        </footer>
+        
+        
+
 
     </div>
 
