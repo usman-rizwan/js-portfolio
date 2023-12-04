@@ -13,8 +13,7 @@ let showLoader = () => {
 showLoader()
 let goTopButton = document.getElementById('goTopButton');
 
-window.addEventListener('scroll', function () {
-
+window.addEventListener('scroll',  ()=>{
     if (window.scrollY > 90) { 
         goTopButton.style.display = 'block';
     } else {
